@@ -1,0 +1,15 @@
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 7px 15px 0 25px ;
+    background: #95CD41;
+    border: 3px solid #FF5200;
+    color: white;
+    font-size: 1.2em;
+}
+button:hover {
+    cursor: crosshair;
+    background: #A2416B;
+    color: #F7FD04;
+}

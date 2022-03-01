@@ -1,0 +1,30 @@
+.selected {
+    background: white;
+    color: black;
+}
+.tab {
+    margin:15px 30px ;
+    padding: 30px;
+    border:  3px solid white;
+    border-top: none;
+    opacity: 0;
+    transform: translateY(20px) rotateY(1turn);
+    transition: 0.2s;
+}
+.tab p {
+    color: white;
+    text-align: justify;
+}
+.tab img {
+    border: red;
+    background: white;
+    border: 15px solid white;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+.tabAnimation {
+    transform: translateY(0);
+    opacity: 1;
+}

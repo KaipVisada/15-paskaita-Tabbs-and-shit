@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    font-family: arial;
+    color: white;  
+}
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 7px 15px 0 25px ;
+    background: #95CD41;
+    border: 3px solid #FF5200;
+    color: white;
+    font-size: 1.2em;
+}
+button:hover {
+    cursor: crosshair;
+    background: #A2416B;
+    color: #F7FD04;
+}
+
+.selected {
+    background: white;
+    color: black;
+}
+.tab {
+    margin:15px 30px ;
+    padding: 30px;
+    border-width: 8px;
+    border-style: solid;
+    border-image: linear-gradient(to right bottom, #A73489, #a053df, #F21170, #F0C929);
+    border-image-slice: 1;
+    opacity: 0;
+    transform: translateY(120px) rotateY(2.5turn);
+    transition: 0.2s;
+    font-size: 1.2em;
+}
+.tab p {
+  background: -webkit-linear-gradient(#0153ae, #fdd501);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-align: justify;
+    font-weight: bold;
+}
+.tab h2 {
+  background: -webkit-linear-gradient(#01fe9c, #fb04c5, #FFE300);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.2em;
+  }
+.tab img {
+    border: red;
+    background: white;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+.tabAnimation {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.back-image {
+  background-image: url("../pics/Slava.jpg");
+  height: 120vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.dark-mode {
+background-color: black;
+color: white;
+}
